@@ -14,6 +14,7 @@
   --white-clr: #ffffff;
   --items: 3;
   --indent: 30px;
+  --borderclr: #eeeeee;
 }
 body {
   font-family: var(--main-font), sans-serif;
@@ -184,6 +185,14 @@ img {
 }
 .list-team {
   --items: 4;
+}
+.team-card {
+  background-color: var(--white-clr);
+}
+.pfolio-card {
+  padding: 20px 24px;
+  border: 1px var(--borderclr);
+  border-top: none;
 }
 .name {
   font-weight: 500;
