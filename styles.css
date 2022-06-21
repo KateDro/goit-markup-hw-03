@@ -32,7 +32,6 @@ body {
 .card-set {
   display: flex;
   flex-wrap: wrap;
-  margin: calc(-1 * var(--indent) / 2);
 }
 
 .card-set-item {
@@ -209,6 +208,7 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.03em;
+  padding-bottom: 4px;
   color: var(--header-textcolor);
 }
 .section-ourteam {
